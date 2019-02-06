@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f9fafc;
+  font-family: Open Sans, sans-serif;
+  height: 100%;
+}
+
+.chirpus {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.body-text {
+  margin-top: 25px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+}
+
+.footer-container {
+  display: flex;
+}
+
+li{
+  display:flex;
+  color: #69696a;
+  padding-top: 10px;
+}
+
+a:visited {
+  color: #69696a;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected-button {
+  background-color: #000;
+  color: #fff !important;
+  border-radius: 50px 50px 50px 50px;
+  padding: 10px 25px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0px 0px 25px;
+
+}
+
+.body-text {
+  border-left: solid 2px #ccc;
+  padding-left: 10px;
+}
+
+.container-right {
+  display: flex;
+
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000;
+  color: #fff !important;
+  border-radius: 50px 50px 50px 50px;
+  padding: 10px 25px;
+  text-align: center;
+  margin-top: 25px;
+
+}
+
+.circle-pink {
+  display: none;
+  height:250px;
+  width:250px;
+  background-color:rgba(247, 136, 167, 0.6);
+  border-radius:50%;
+
+}
+
+.circle-orange {
+
+  display: none;
+  background-color:rgba(247, 193, 162, 0.7);
+  height: 200px;
+  width: 200px;
+  border-radius:50%;
+  top: 90px;
+  left: 130px;
+}
+
+.circle-purple {
+  display: none;
+  background-color:rgba(207, 130, 213, 0.6);
+  height:125px;
+  width:125px;
+  border-radius:50%;
+  top: 0px;
+  left: 198px;
+}
+
+
+
+@media (min-width:768px)  {
+
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 25px;
+  }
+
+  .main-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-container {
+    justify-content: center;
+  }
+
+  li{
+    margin-right: 20px;
+    color: #69696a;
+  }
+
+  .list {
+    flex-direction: row;
+
+  }
+
+  .container-left {
+    flex-direction: column;
+    flex-basis: 40%;
+  }
+
+  .container-right {
+    flex-basis: 45%;
+    align-items: center;
+}
+
+  .scroll {
+    width: 9%;
+  }
+
+  .circle-pink {
+    display: flex;
+  }
+
+  .circle-orange {
+    display: flex;
+    margin-left: -180px;
+    margin-top: 185px;
+  }
+
+  .circle-purple {
+    display: flex;
+    margin-left: -40px;
+    margin-top: -80px;
+  }
+
+
+
+
+ }
